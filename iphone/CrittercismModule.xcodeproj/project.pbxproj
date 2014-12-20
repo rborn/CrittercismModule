@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 45;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXAggregateTarget section */
@@ -26,12 +26,12 @@
 		24DD6CFA1134B3F500162E58 /* CrittercismModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DD6CF81134B3F500162E58 /* CrittercismModule.m */; };
 		24DE9E1111C5FE74003F90F6 /* CrittercismModuleAssets.h in Headers */ = {isa = PBXBuildFile; fileRef = 24DE9E0F11C5FE74003F90F6 /* CrittercismModuleAssets.h */; };
 		24DE9E1211C5FE74003F90F6 /* CrittercismModuleAssets.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DE9E1011C5FE74003F90F6 /* CrittercismModuleAssets.m */; };
+		5D1B94B71A4619A600EF5232 /* CRFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D1B94B21A4619A600EF5232 /* CRFilter.h */; };
+		5D1B94B81A4619A600EF5232 /* Crittercism.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D1B94B31A4619A600EF5232 /* Crittercism.h */; };
+		5D1B94B91A4619A600EF5232 /* CrittercismDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D1B94B41A4619A600EF5232 /* CrittercismDelegate.h */; };
+		5D1B94BA1A4619A600EF5232 /* libCrittercism_v5_0_7.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D1B94B61A4619A600EF5232 /* libCrittercism_v5_0_7.a */; };
 		AA747D9F0F9514B9006C5449 /* Crittercism_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* Crittercism_Prefix.pch */; };
 		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
-		F7969BCD19828BA70040226E /* CRFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = F7969BC819828BA70040226E /* CRFilter.h */; };
-		F7969BCE19828BA70040226E /* Crittercism.h in Headers */ = {isa = PBXBuildFile; fileRef = F7969BC919828BA70040226E /* Crittercism.h */; };
-		F7969BCF19828BA70040226E /* CrittercismDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = F7969BCA19828BA70040226E /* CrittercismDelegate.h */; };
-		F7969BD019828BA70040226E /* libCrittercism_v4_3_4.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F7969BCC19828BA70040226E /* libCrittercism_v4_3_4.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,14 +50,14 @@
 		24DD6D1B1134B66800162E58 /* titanium.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = titanium.xcconfig; sourceTree = "<group>"; };
 		24DE9E0F11C5FE74003F90F6 /* CrittercismModuleAssets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CrittercismModuleAssets.h; path = Classes/CrittercismModuleAssets.h; sourceTree = "<group>"; };
 		24DE9E1011C5FE74003F90F6 /* CrittercismModuleAssets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CrittercismModuleAssets.m; path = Classes/CrittercismModuleAssets.m; sourceTree = "<group>"; };
+		5D1B94B21A4619A600EF5232 /* CRFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRFilter.h; sourceTree = "<group>"; };
+		5D1B94B31A4619A600EF5232 /* Crittercism.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Crittercism.h; sourceTree = "<group>"; };
+		5D1B94B41A4619A600EF5232 /* CrittercismDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrittercismDelegate.h; sourceTree = "<group>"; };
+		5D1B94B51A4619A600EF5232 /* dsym_upload.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = dsym_upload.sh; sourceTree = "<group>"; };
+		5D1B94B61A4619A600EF5232 /* libCrittercism_v5_0_7.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libCrittercism_v5_0_7.a; sourceTree = "<group>"; };
 		AA747D9E0F9514B9006C5449 /* Crittercism_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Crittercism_Prefix.pch; sourceTree = SOURCE_ROOT; };
 		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D2AAC07E0554694100DB518D /* libCrittercism.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCrittercism.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		F7969BC819828BA70040226E /* CRFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRFilter.h; sourceTree = "<group>"; };
-		F7969BC919828BA70040226E /* Crittercism.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Crittercism.h; sourceTree = "<group>"; };
-		F7969BCA19828BA70040226E /* CrittercismDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrittercismDelegate.h; sourceTree = "<group>"; };
-		F7969BCB19828BA70040226E /* dsym_upload.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = dsym_upload.sh; sourceTree = "<group>"; };
-		F7969BCC19828BA70040226E /* libCrittercism_v4_3_4.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libCrittercism_v4_3_4.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,8 +65,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F7969BD019828BA70040226E /* libCrittercism_v4_3_4.a in Frameworks */,
 				AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */,
+				5D1B94BA1A4619A600EF5232 /* libCrittercism_v5_0_7.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +88,7 @@
 				32C88DFF0371C24200C91783 /* Other Sources */,
 				0867D69AFE84028FC02AAC07 /* Frameworks */,
 				034768DFFF38A50411DB9C8B /* Products */,
-				F7969BC719828BA70040226E /* CrittercismSDK */,
+				5D1B94B11A4619A600EF5232 /* CrittercismSDK */,
 			);
 			name = CrittercismModule;
 			sourceTree = "<group>";
@@ -121,17 +121,16 @@
 			name = "Other Sources";
 			sourceTree = "<group>";
 		};
-		F7969BC719828BA70040226E /* CrittercismSDK */ = {
+		5D1B94B11A4619A600EF5232 /* CrittercismSDK */ = {
 			isa = PBXGroup;
 			children = (
-				F7969BC819828BA70040226E /* CRFilter.h */,
-				F7969BC919828BA70040226E /* Crittercism.h */,
-				F7969BCA19828BA70040226E /* CrittercismDelegate.h */,
-				F7969BCB19828BA70040226E /* dsym_upload.sh */,
-				F7969BCC19828BA70040226E /* libCrittercism_v4_3_4.a */,
+				5D1B94B21A4619A600EF5232 /* CRFilter.h */,
+				5D1B94B31A4619A600EF5232 /* Crittercism.h */,
+				5D1B94B41A4619A600EF5232 /* CrittercismDelegate.h */,
+				5D1B94B51A4619A600EF5232 /* dsym_upload.sh */,
+				5D1B94B61A4619A600EF5232 /* libCrittercism_v5_0_7.a */,
 			);
-			name = CrittercismSDK;
-			path = ../../../Downloads/Crittercism_v4_3_4/CrittercismSDK;
+			path = CrittercismSDK;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,11 +141,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA747D9F0F9514B9006C5449 /* Crittercism_Prefix.pch in Headers */,
-				F7969BCF19828BA70040226E /* CrittercismDelegate.h in Headers */,
-				F7969BCE19828BA70040226E /* Crittercism.h in Headers */,
+				5D1B94B91A4619A600EF5232 /* CrittercismDelegate.h in Headers */,
+				5D1B94B81A4619A600EF5232 /* Crittercism.h in Headers */,
 				24DD6CF91134B3F500162E58 /* CrittercismModule.h in Headers */,
 				24DE9E1111C5FE74003F90F6 /* CrittercismModuleAssets.h in Headers */,
-				F7969BCD19828BA70040226E /* CRFilter.h in Headers */,
+				5D1B94B71A4619A600EF5232 /* CRFilter.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,9 +175,10 @@
 		0867D690FE84028FC02AAC07 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastUpgradeCheck = 0610;
 			};
 			buildConfigurationList = 1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "CrittercismModule" */;
-			compatibilityVersion = "Xcode 3.1";
+			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 1;
 			knownRegions = (
@@ -258,7 +258,7 @@
 				GCC_WARN_UNUSED_VALUE = NO;
 				GCC_WARN_UNUSED_VARIABLE = NO;
 				INSTALL_PATH = /usr/local/lib;
-				LIBRARY_SEARCH_PATHS = /Users/mfogg/Downloads/Crittercism_v4_3_4/CrittercismSDK;
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/CrittercismSDK";
 				OTHER_CFLAGS = (
 					"-DDEBUG",
 					"-DTI_POST_1_2",
@@ -295,8 +295,8 @@
 				GCC_WARN_UNUSED_VALUE = NO;
 				GCC_WARN_UNUSED_VARIABLE = NO;
 				INSTALL_PATH = /usr/local/lib;
-				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
-				LIBRARY_SEARCH_PATHS = /Users/mfogg/Downloads/Crittercism_v4_3_4/CrittercismSDK;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/CrittercismSDK";
 				OTHER_CFLAGS = "-DTI_POST_1_2";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = Crittercism;
@@ -330,6 +330,8 @@
 				GCC_WARN_UNUSED_VALUE = NO;
 				GCC_WARN_UNUSED_VARIABLE = NO;
 				INSTALL_PATH = /usr/local/lib;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = NO;
 				OTHER_CFLAGS = (
 					"-DDEBUG",
 					"-DTI_POST_1_2",
@@ -341,6 +343,7 @@
 				RUN_CLANG_STATIC_ANALYZER = NO;
 				SDKROOT = iphoneos;
 				USER_HEADER_SEARCH_PATHS = "";
+				"VALID_ARCHS[sdk=*]" = "arm64 armv7 armv7s";
 			};
 			name = Debug;
 		};
@@ -367,7 +370,8 @@
 				GCC_WARN_UNUSED_VALUE = NO;
 				GCC_WARN_UNUSED_VARIABLE = NO;
 				INSTALL_PATH = /usr/local/lib;
-				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
 				OTHER_CFLAGS = "-DTI_POST_1_2";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = Crittercism;
